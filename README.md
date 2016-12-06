@@ -9,7 +9,7 @@ Brunch skeleton with:
 - [ ] ES6
 - [ ] Browser-Sync
 
-## Pre-requisites
+## Prerequisites
 
 - [Node.js](http://nodejs.org/)
 - [Brunch](http://brunch.io/) with `npm install -g brunch`
