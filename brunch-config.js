@@ -20,6 +20,14 @@ exports.modules = {
   nameCleaner: path => path.replace(/^app\/js\//, '')
 }
 
+exports.plugins = {
+  postcss: {
+    processors: [
+      require('autoprefixer')(['last 3 versions', '> 1%'])
+    ]
+  }
+}
+
 exports.server = {
   port: 4000
 }
