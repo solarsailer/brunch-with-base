@@ -6,7 +6,7 @@ Brunch skeleton with:
 - [ ] `normalize.css`
 - [x] Sass
 - [ ] Autoprefixer
-- [ ] ES6
+- [x] ES6 (with Babel)
 - [x] Browser-Sync
 
 ## Prerequisites
