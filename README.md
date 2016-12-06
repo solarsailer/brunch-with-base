@@ -3,11 +3,14 @@
 Brunch skeleton with:
 
 - [x] Sane set of default CSS rules and HTML
-- [x] `normalize.css`
 - [x] Sass
 - [x] Autoprefixer
 - [x] ES6 (with Babel)
 - [x] Browser-Sync
+- [x] Libraries:
+  - [x] `normalize.css`
+  - [x] jQuery
+  - [x] Lodash
 
 ## Prerequisites
 

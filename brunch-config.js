@@ -21,6 +21,12 @@ exports.modules = {
 }
 
 exports.npm = {
+  // Remove the need to `require()` jQuery and Lodash in each module.
+  globals: {
+    '$': 'jquery',
+    '_': 'lodash'
+  },
+
   styles: {
     'normalize.css': ['normalize.css']
   }
