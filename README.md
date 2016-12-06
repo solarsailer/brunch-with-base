@@ -3,10 +3,10 @@
 Brunch skeleton with:
 
 - [x] Sane set of default CSS rules and HTML
-- [x] Sass
-- [x] Autoprefixer
-- [x] ES6 (with Babel)
-- [x] Browser-Sync
+- [x] Pipeline:
+  - [x] Sass -> CSS -> Autoprefixer -> Clean-CSS
+  - [x] Babel (ES2015/ES2016) -> JS -> UglifyJS
+  - [x] Browser-Sync
 - [x] Libraries:
   - [x] `normalize.css`
   - [x] jQuery
