@@ -20,6 +20,12 @@ exports.modules = {
   nameCleaner: path => path.replace(/^app\/js\//, '')
 }
 
+exports.npm = {
+  styles: {
+    'normalize.css': ['normalize.css']
+  }
+}
+
 exports.plugins = {
   postcss: {
     processors: [

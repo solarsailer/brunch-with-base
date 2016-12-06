@@ -12,7 +12,9 @@
     "start": "brunch watch --server",
     "build": "brunch build --production"
   },
-  "dependencies": {},
+  "dependencies": {
+    "normalize.css": "^5.0.0"
+  },
   "devDependencies": {
     "autoprefixer": "^6.5.3",
     "babel-brunch": "^6.0.6",

@@ -3,7 +3,7 @@
 Brunch skeleton with:
 
 - [x] Sane set of default CSS rules and HTML
-- [ ] `normalize.css`
+- [x] `normalize.css`
 - [x] Sass
 - [x] Autoprefixer
 - [x] ES6 (with Babel)
