@@ -7,7 +7,7 @@ Brunch skeleton with:
 - [x] Sass
 - [ ] Autoprefixer
 - [ ] ES6
-- [ ] Browser-Sync
+- [x] Browser-Sync
 
 ## Prerequisites
 

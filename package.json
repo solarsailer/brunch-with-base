@@ -14,7 +14,7 @@
   },
   "dependencies": {},
   "devDependencies": {
-    "auto-reload-brunch": "^2.0.0",
+    "browser-sync-brunch": "0.0.9",
     "brunch": "^2.0.0",
     "clean-css-brunch": "^2.0.0",
     "css-brunch": "^2.0.0",
