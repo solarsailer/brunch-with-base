@@ -1,4 +1,5 @@
 exports.paths = {
+  // Use `build` instead of `public`.
   public: 'build'
 }
 
@@ -13,10 +14,14 @@ exports.files = {
 }
 
 exports.modules = {
+  // Bootstrap the JS with the module `main.js`.
   autoRequire: {
     'static/js/master.js': ['main']
   },
 
+  // This will clean the common path from modules name.
+  // - `app/js/main.js` will become `main.js`.
+  // - `app/js/point/point.js` will become `point/point.js`.
   nameCleaner: path => path.replace(/^app\/js\//, '')
 }
 
@@ -27,6 +32,7 @@ exports.npm = {
     '_': 'lodash'
   },
 
+  // Use stylesheets from NPM modules.
   styles: {
     'normalize.css': ['normalize.css']
   }
