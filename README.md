@@ -1,16 +1,16 @@
 # brunch-with-base
 
-Brunch skeleton with:
+[Brunch](http://brunch.io/) skeleton:
 
-- [x] Sane set of default CSS rules and HTML
+- [x] Sane set of default CSS rules
 - [x] Pipeline:
-  - [x] Sass -> CSS -> Autoprefixer -> Clean-CSS
-  - [x] Babel (ES2015/ES2016) -> JS -> UglifyJS
+  - [x] Sass → CSS → Autoprefixer → Clean-CSS
+  - [x] Babel (ES2015/ES2016) → JS → UglifyJS
   - [x] Browser-Sync
 - [x] Libraries:
-  - [x] `normalize.css`
-  - [x] jQuery
-  - [x] Lodash
+  - [x] [normalize.css](https://necolas.github.io/normalize.css/)
+  - [x] [jQuery](https://jquery.com/)
+  - [x] [Lodash](https://lodash.com/)
 
 ## Prerequisites
 
