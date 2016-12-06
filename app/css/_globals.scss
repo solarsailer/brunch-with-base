@@ -1,0 +1,60 @@
+@charset "UTF-8";
+
+/* ---------------------------------------------------------- *\
+ * Globals
+\* ---------------------------------------------------------- */
+
+/**
+ * Box-model.
+ */
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+/**
+ * Typography.
+ */
+
+html {
+  font: 62.5%/1.4 $font-normal;
+}
+
+body {
+  font-size: 1.5em;
+}
+
+/**
+ * Full-viewport body.
+ */
+
+body {
+  position: relative;
+
+  min-height: 100vh;
+  margin: 0;
+}
+
+/**
+ * Colors.
+ */
+
+html {
+  color: $color-text;
+  background: $color-overscroll;
+}
+
+body {
+  background: white;
+}
+
+::selection {
+  color: white;
+  background: $color-brand;
+}
