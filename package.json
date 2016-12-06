@@ -3,9 +3,10 @@
   "description": "Web development boilerplate (Sass/ES6)",
   "author": "Matthieu Oger",
   "version": "1.0.0",
+  "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/solarsailer/brunch-with-base"
+    "url": "git@github.com:solarsailer/brunch-with-base.git"
   },
   "scripts": {
     "start": "brunch watch --server",
